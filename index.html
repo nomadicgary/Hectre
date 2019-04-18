@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Wed Jan 16 2019 02:19:59 GMT+0000 (UTC)  -->
+<!--  Last Published: Thu Apr 18 2019 18:59:27 GMT+0000 (UTC)  -->
 <html data-wf-page="5bf330e1e30af9600d7dbbcc" data-wf-site="5bb42c1c096def45f6f9cd6b">
 <head>
   <meta charset="utf-8">
@@ -482,7 +482,7 @@ $(function() {
             <div class="tab-icon harvest"></div>
             <div class="tab-title">Harvest</div>
           </a>
-          <a data-w-tab="Payroll" class="side-nav-tab w-inline-block w-clearfix w-tab-link w--current">
+          <a data-w-tab="Payroll" class="side-nav-tab w-inline-block w-clearfix w-tab-link">
             <div class="tab-icon payroll"></div>
             <div class="tab-title">PAYROLL</div>
           </a>
@@ -499,6 +499,14 @@ $(function() {
             <div class="tab-title">TASKS</div>
           </a>
           <a data-w-tab="Admin" class="side-nav-tab w-inline-block w-clearfix w-tab-link">
+            <div class="tab-icon insights"></div>
+            <div class="tab-title">INSIGHTS</div>
+          </a>
+          <a data-w-tab="Admin 2" class="side-nav-tab w-inline-block w-clearfix w-tab-link w--current">
+            <div class="tab-icon performance"></div>
+            <div class="tab-title">PerFORMANCE</div>
+          </a>
+          <a data-w-tab="Admin 3" class="side-nav-tab w-inline-block w-clearfix w-tab-link">
             <div class="tab-icon admin"></div>
             <div class="tab-title">Admin</div>
           </a>
@@ -606,7 +614,7 @@ $(function() {
             </div>
             <div class="inner-overflow">
               <div class="main-container">
-                <div data-ix="scroll-tutorial" id="w-node-f19a2ddc86f4-0d7dbbcc" class="column-container">
+                <div data-ix="scroll-tutorial" class="column-container">
                   <div id="w-node-f53c3baeb2ae-0d7dbbcc" class="column _6-columns">
                     <div class="row label">
                       <div class="column-label">DAY TALLIES</div>
@@ -935,7 +943,7 @@ $(function() {
               </div>
             </div>
           </div>
-          <div data-w-tab="Payroll" class="frame-pane w-tab-pane w--tab-active">
+          <div data-w-tab="Payroll" class="frame-pane w-tab-pane">
             <div class="filter-container vertical">
               <div class="filter-row w-clearfix">
                 <div class="input-container"><img src="images/Calendar.png" width="16" alt="" class="calendar-icon">
@@ -1029,7 +1037,7 @@ $(function() {
                       <h4 class="heading">Alicia Ortiz</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">Alicia Ortiz</h4>
+                      <h4 class="heading total">Alicia Ortiz</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row">
                       <h4 class="heading">Alejandro Lamos</h4>
@@ -1047,7 +1055,7 @@ $(function() {
                       <h4 class="heading">Alejandro Lamos</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">Alejandro Lamos</h4>
+                      <h4 class="heading total">Alejandro Lamos</h4>
                     </div>
                   </div>
                   <div id="w-node-8ede2c7893e9-0d7dbbcc" class="column">
@@ -1069,7 +1077,7 @@ $(function() {
                       <h4 class="heading">06 Aug 18</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">Totals</h4>
+                      <h4 class="heading total">Totals</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row">
                       <h4 class="heading">09 Aug 18</h4>
@@ -1087,7 +1095,7 @@ $(function() {
                       <h4 class="heading">06 Aug 18</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">Totals</h4>
+                      <h4 class="heading total">Totals</h4>
                     </div>
                   </div>
                   <div id="w-node-8ede2c789447-0d7dbbcc" class="column">
@@ -1253,7 +1261,7 @@ $(function() {
                       <h4 class="heading">2</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">8</h4>
+                      <h4 class="heading total">8</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row">
                       <h4 class="heading">25</h4>
@@ -1271,7 +1279,7 @@ $(function() {
                       <h4 class="heading">3</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">36</h4>
+                      <h4 class="heading total">36</h4>
                     </div>
                   </div>
                   <div class="column">
@@ -1293,7 +1301,7 @@ $(function() {
                       <h4 class="heading">$135</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">$540</h4>
+                      <h4 class="heading total">$540</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row">
                       <h4 class="heading">$50</h4>
@@ -1311,7 +1319,7 @@ $(function() {
                       <h4 class="heading">$57.32</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">$265.32</h4>
+                      <h4 class="heading total">$265.32</h4>
                     </div>
                   </div>
                   <div class="column">
@@ -1333,7 +1341,7 @@ $(function() {
                       <h4 class="heading">2</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">8</h4>
+                      <h4 class="heading total">8</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row">
                       <h4 class="heading">0</h4>
@@ -1351,7 +1359,7 @@ $(function() {
                       <h4 class="heading">1</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">6</h4>
+                      <h4 class="heading total">6</h4>
                     </div>
                   </div>
                   <div class="column">
@@ -1373,7 +1381,7 @@ $(function() {
                       <h4 class="heading">10</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">10</h4>
+                      <h4 class="heading total">10</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row">
                       <h4 class="heading">20</h4>
@@ -1391,7 +1399,7 @@ $(function() {
                       <h4 class="heading">0</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">0</h4>
+                      <h4 class="heading total">0</h4>
                     </div>
                   </div>
                   <div class="column">
@@ -1413,7 +1421,7 @@ $(function() {
                       <h4 class="heading">$135</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">$540</h4>
+                      <h4 class="heading total">$540</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row">
                       <h4 class="heading">$50</h4>
@@ -1431,7 +1439,7 @@ $(function() {
                       <h4 class="heading">$57.32</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">$227.32</h4>
+                      <h4 class="heading total">$227.32</h4>
                     </div>
                   </div>
                   <div class="column">
@@ -1453,7 +1461,7 @@ $(function() {
                       <h4 class="heading">$135</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">$540</h4>
+                      <h4 class="heading total">$540</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row">
                       <h4 class="heading">$50</h4>
@@ -1471,7 +1479,7 @@ $(function() {
                       <h4 class="heading">$57.32</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">$227.32</h4>
+                      <h4 class="heading total">$227.32</h4>
                     </div>
                   </div>
                   <div class="column">
@@ -1493,7 +1501,7 @@ $(function() {
                       <h4 class="heading">$135</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">$540</h4>
+                      <h4 class="heading total">$540</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row">
                       <h4 class="heading">$50</h4>
@@ -1511,7 +1519,7 @@ $(function() {
                       <h4 class="heading">$57.32</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">$227.32</h4>
+                      <h4 class="heading total">$227.32</h4>
                     </div>
                   </div>
                   <div class="column">
@@ -1533,7 +1541,7 @@ $(function() {
                       <h4 class="heading">$135</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">$$540</h4>
+                      <h4 class="heading total">$$540</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row">
                       <h4 class="heading">$50</h4>
@@ -1551,7 +1559,7 @@ $(function() {
                       <h4 class="heading">$57.32</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">$227.32</h4>
+                      <h4 class="heading total">$227.32</h4>
                     </div>
                   </div>
                   <div class="column">
@@ -1573,7 +1581,7 @@ $(function() {
                       <h4 class="heading">$135</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">$540</h4>
+                      <h4 class="heading total">$540</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row">
                       <h4 class="heading">$50</h4>
@@ -1591,7 +1599,7 @@ $(function() {
                       <h4 class="heading">$57.32</h4>
                     </div>
                     <div data-ix="show-slider-container" class="row total">
-                      <h4 class="heading total-row">$227.32</h4>
+                      <h4 class="heading total">$227.32</h4>
                     </div>
                   </div>
                 </div>
@@ -2765,10 +2773,791 @@ $(function() {
               </div>
             </div>
           </div>
-          <div data-w-tab="Admin" class="frame-pane w-tab-pane">
+          <div data-w-tab="Admin" class="frame-pane w-tab-pane"></div>
+          <div data-w-tab="Admin 2" class="frame-pane w-tab-pane w--tab-active">
             <div data-duration-in="300" data-duration-out="100" class="sub-frame w-tabs">
               <div class="sub-nav w-tab-menu">
                 <a data-w-tab="Tab 1" class="horizontal-nav-tab w-inline-block w-tab-link">
+                  <div class="horizontal-nav-title">SUPERVISOR/PICKER</div>
+                </a>
+                <a data-w-tab="Tab 2" class="horizontal-nav-tab w-inline-block w-tab-link w--current">
+                  <div class="horizontal-nav-title">FEEDBACK</div>
+                </a>
+              </div>
+              <div class="w-tab-content">
+                <div data-w-tab="Tab 1" class="tab-container w-tab-pane">
+                  <div class="filter-container vertical">
+                    <div class="filter-row">
+                      <div class="input-container"><img src="images/Calendar.png" width="16" alt="" class="calendar-icon">
+                        <div class="search-label">03 Oct 2018</div>
+                      </div>
+                      <div class="text-block">to</div>
+                      <div class="input-container"><img src="images/Calendar.png" width="16" alt="" class="calendar-icon">
+                        <div class="search-label">04 Oct 2018</div>
+                      </div>
+                      <div class="input-container dropdown">
+                        <div class="w-form">
+                          <form><select class="dropdown-selection w-select"><option value="">SUPERVISOR</option><option value="1">Alejandro Ramos</option><option value="2">Monica Rodriguez</option><option value="3">Raymond Domingo</option></select></form>
+                          <div class="w-form-done">
+                            <div>Thank you! Your submission has been received!</div>
+                          </div>
+                          <div class="w-form-fail">
+                            <div>Oops! Something went wrong while submitting the form</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="input-container dropdown">
+                        <div class="w-form">
+                          <form><select class="dropdown-selection w-select"><option value="">PICKER</option><option value="1">James Franko</option><option value="2">Jose Lopez</option><option value="3">Alex Rodriguez</option></select></form>
+                          <div class="w-form-done">
+                            <div>Thank you! Your submission has been received!</div>
+                          </div>
+                          <div class="w-form-fail">
+                            <div>Oops! Something went wrong while submitting the form</div>
+                          </div>
+                        </div>
+                      </div><a href="#" class="small-button w-button" data-ix="reveal-toast">APPLY</a></div>
+                  </div>
+                  <div data-duration-in="300" data-duration-out="100" class="sub-frame scroll w-tabs">
+                    <div class="sub-nav short w-tab-menu">
+                      <a data-w-tab="Tab 1" class="horizontal-nav-tab narrow w-inline-block w-tab-link w--current">
+                        <div class="horizontal-nav-title">PACKOUT</div>
+                      </a>
+                      <a data-w-tab="Tab 2" class="horizontal-nav-tab narrow w-inline-block w-tab-link">
+                        <div class="horizontal-nav-title">QC SHEETS</div>
+                      </a>
+                    </div>
+                    <div class="w-tab-content">
+                      <div data-w-tab="Tab 1" class="tab-container w-tab-pane w--tab-active">
+                        <div class="inner-overflow">
+                          <div class="main-container graph">
+                            <div class="highlights-container">
+                              <div class="output-box">
+                                <div class="type">Bins QC&#x27;d</div>
+                                <div class="number">46</div>
+                              </div>
+                              <div class="output-box">
+                                <div class="type">‍P Packout</div>
+                                <div class="number">88%</div>
+                              </div>
+                              <div class="output-box">
+                                <div class="type">Average<br>Team Packout %</div>
+                                <div class="number">77%</div>
+                              </div>
+                            </div>
+                            <div class="graph-container">
+                              <div class="w-embed w-script">
+                                <!DOCTYPE HTML>
+                                <html>
+                                <head>
+                                  <script>
+window.onload = function () {
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	theme: "light2",
+	title:{
+		text: "Comparing User vs Team Packout % " ,
+	},
+	axisX:{
+		valueFormatString: "DD MMM",
+		crosshair: {
+			enabled: true,
+			snapToDataPoint: true
+		}
+	},
+	axisY: {
+		title: "Packout Rate %",
+		crosshair: {
+			enabled: true
+		}
+	},
+	toolTip:{
+		shared:true
+	},  
+	legend:{
+		cursor:"pointer",
+		verticalAlign: "bottom",
+		horizontalAlign: "left",
+		dockInsidePlotArea: true,
+		itemclick: toogleDataSeries
+	},
+	data: [{
+		type: "line",
+		showInLegend: true,
+		name: "User: Alejandro",
+		markerType: "square",
+		xValueFormatString: "DD MMM, YYYY",
+		color: "#FF7800",
+		dataPoints: [
+			{ x: new Date(2017, 0, 3), y: 89 },
+			{ x: new Date(2017, 0, 4), y: 80 },
+			{ x: new Date(2017, 0, 5), y: 85 },
+			{ x: new Date(2017, 0, 6), y: 80 },
+			{ x: new Date(2017, 0, 7), y: 80 },
+			{ x: new Date(2017, 0, 8), y: 86 },
+			{ x: new Date(2017, 0, 9), y: 85 },
+			{ x: new Date(2017, 0, 10), y: 90 },
+			{ x: new Date(2017, 0, 11), y: 83 },
+			{ x: new Date(2017, 0, 12), y: 80 },
+			{ x: new Date(2017, 0, 13), y: 76 },
+			{ x: new Date(2017, 0, 14), y: 87 },
+			{ x: new Date(2017, 0, 15), y: 85 },
+			{ x: new Date(2017, 0, 16), y: 80 }
+		]
+	},
+	{
+		type: "line",
+		showInLegend: true,
+		name: "Avg. Team Packout %",
+		lineDashType: "dash",
+		dataPoints: [
+			{ x: new Date(2017, 0, 3), y: 88 },
+			{ x: new Date(2017, 0, 4), y: 90 },
+			{ x: new Date(2017, 0, 5), y: 82 },
+			{ x: new Date(2017, 0, 6), y: 80 },
+			{ x: new Date(2017, 0, 7), y: 78 },
+			{ x: new Date(2017, 0, 8), y: 80 },
+			{ x: new Date(2017, 0, 9), y: 82 },
+			{ x: new Date(2017, 0, 10), y: 85 },
+			{ x: new Date(2017, 0, 11), y: 84 },
+			{ x: new Date(2017, 0, 12), y: 80 },
+			{ x: new Date(2017, 0, 13), y: 89 },
+			{ x: new Date(2017, 0, 14), y: 86 },
+			{ x: new Date(2017, 0, 15), y: 85 },
+			{ x: new Date(2017, 0, 16), y: 78 }
+		]
+	}]
+});
+chart.render();
+function toogleDataSeries(e){
+	if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+		e.dataSeries.visible = false;
+	} else{
+		e.dataSeries.visible = true;
+	}
+	chart.render();
+}
+}
+</script>
+                                </head>
+                                <body>
+                                  <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+                                  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+                                </body>
+                                </html>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-w-tab="Tab 2" class="tab-container w-tab-pane">
+                        <div class="inner-overflow">
+                          <div class="main-container table">
+                            <div class="column-container">
+                              <div class="vertical-y-column">
+                                <div class="row label" data-ix="show-drag-icon"></div>
+                                <div class="row label" data-ix="show-drag-icon">
+                                  <div class="column-label bold">Bruise</div>
+                                </div>
+                                <div class="row label" data-ix="show-drag-icon">
+                                  <div class="column-label bold">SCUFF</div>
+                                </div>
+                                <div class="row label" data-ix="show-drag-icon">
+                                  <div class="column-label bold">PUNCTURE</div>
+                                </div>
+                                <div class="row label" data-ix="show-drag-icon">
+                                  <div class="column-label bold">HAil</div>
+                                </div>
+                                <div class="row label" data-ix="show-drag-icon">
+                                  <div class="column-label bold">COLOUR</div>
+                                </div>
+                                <div class="row label" data-ix="show-drag-icon">
+                                  <div class="column-label bold">SPUR &amp; LEAVES</div>
+                                </div>
+                                <div class="row label" data-ix="show-drag-icon">
+                                  <div class="column-label bold">Fruit Drop</div>
+                                </div>
+                                <div class="row label" data-ix="show-drag-icon">
+                                  <div class="column-label bold">Sunburn</div>
+                                </div>
+                                <div class="row label total" data-ix="show-drag-icon">
+                                  <div class="column-label total">Total</div>
+                                </div>
+                              </div>
+                              <div class="column table">
+                                <div class="row label" data-ix="show-drag-icon">
+                                  <div class="column-label qc-number">1</div>
+                                  <div class="divider"></div>
+                                  <div class="column-label">8:15AM</div><img src="images/Info.svg" width="16" alt="" class="info" data-ix="reveal-table-overlay">
+                                  <div class="table-hover-overlay" data-ix="initial-table-hover-overlay">
+                                    <div class="column-label qc-number">Bl 2</div>
+                                    <div class="divider"></div>
+                                    <div class="column-label variety">Envy</div>
+                                  </div>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">2</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">1</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">4</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">5</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">11</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">2</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">3</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">5</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table total">
+                                  <h4 class="heading total">30</h4>
+                                </div>
+                              </div>
+                              <div class="column table">
+                                <div class="row label" data-ix="show-drag-icon">
+                                  <div class="column-label qc-number">2</div>
+                                  <div class="divider"></div>
+                                  <div class="column-label">8:26AM</div><img src="images/Info.svg" width="16" alt="" class="info" data-ix="reveal-table-overlay">
+                                  <div class="table-hover-overlay" data-ix="initial-table-hover-overlay">
+                                    <div class="column-label qc-number">Bl 2334f</div>
+                                    <div class="divider"></div>
+                                    <div class="column-label variety">New Zealand Envy</div>
+                                  </div>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">2</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">1</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">4</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">2</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">4</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">2</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">10</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">1</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table total">
+                                  <h4 class="heading total">28</h4>
+                                </div>
+                              </div>
+                              <div class="column table">
+                                <div class="row label" data-ix="show-drag-icon">
+                                  <div class="column-label qc-number">3</div>
+                                  <div class="divider"></div>
+                                  <div class="column-label">10:22<span>am</span></div><img src="images/Info.svg" width="14" alt="" class="info" data-ix="reveal-table-overlay">
+                                  <div class="table-hover-overlay" data-ix="initial-table-hover-overlay">
+                                    <div class="column-label qc-number">Bl 2</div>
+                                    <div class="divider"></div>
+                                    <div class="column-label variety">Envy</div>
+                                  </div>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">2</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">1</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">2</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">4</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">1</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">2</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">3</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">5</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table total">
+                                  <h4 class="heading total">27</h4>
+                                </div>
+                              </div>
+                              <div class="column table">
+                                <div class="row label" data-ix="show-drag-icon">
+                                  <div class="column-label qc-number">4</div>
+                                  <div class="divider"></div>
+                                  <div class="column-label">11:22AM</div><img src="images/Info.svg" width="14" alt="" class="info" data-ix="reveal-table-overlay">
+                                  <div class="table-hover-overlay" data-ix="initial-table-hover-overlay">
+                                    <div class="column-label qc-number">Bl 2245D</div>
+                                    <div class="divider"></div>
+                                    <div class="column-label variety">Red Delicious</div>
+                                  </div>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">2</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">1</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">4</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">5</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">4</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">2</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">3</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">5</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table total">
+                                  <h4 class="heading total">26</h4>
+                                </div>
+                              </div>
+                              <div class="column table">
+                                <div class="row label" data-ix="show-drag-icon">
+                                  <div class="column-label qc-number">5</div>
+                                  <div class="divider"></div>
+                                  <div class="column-label">12:05pm</div><img src="images/Info.svg" width="14" alt="" class="info" data-ix="reveal-table-overlay">
+                                  <div class="table-hover-overlay" data-ix="initial-table-hover-overlay">
+                                    <div class="column-label qc-number">Bl 2</div>
+                                    <div class="divider"></div>
+                                    <div class="column-label variety">Envy</div>
+                                  </div>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">1</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">1</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">4</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">5</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">10</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">2</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">3</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">1</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table total">
+                                  <h4 class="heading total">20</h4>
+                                </div>
+                              </div>
+                              <div class="column table">
+                                <div class="row label" data-ix="show-drag-icon">
+                                  <div class="column-label qc-number">6</div>
+                                  <div class="divider"></div>
+                                  <div class="column-label">1:25pm</div><img src="images/Info.svg" width="14" alt="" class="info" data-ix="reveal-table-overlay">
+                                  <div class="table-hover-overlay" data-ix="initial-table-hover-overlay">
+                                    <div class="column-label qc-number">Bl 2</div>
+                                    <div class="divider"></div>
+                                    <div class="column-label variety">Envy</div>
+                                  </div>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">2</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">1</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">3</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">5</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">3</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">2</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">3</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">5</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table total">
+                                  <h4 class="heading total">22</h4>
+                                </div>
+                              </div>
+                              <div class="column table">
+                                <div class="row label" data-ix="show-drag-icon">
+                                  <div class="column-label qc-number">7</div>
+                                  <div class="divider"></div>
+                                  <div class="column-label">2:44PM</div><img src="images/Info.svg" width="14" alt="" class="info" data-ix="reveal-table-overlay">
+                                  <div class="table-hover-overlay" data-ix="initial-table-hover-overlay">
+                                    <div class="column-label qc-number">Bl 2</div>
+                                    <div class="divider"></div>
+                                    <div class="column-label variety">Envy</div>
+                                  </div>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">2</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">1</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">4</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">1</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">3</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">2</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">3</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">5</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table total">
+                                  <h4 class="heading total">23</h4>
+                                </div>
+                              </div>
+                              <div class="column table">
+                                <div class="row label" data-ix="show-drag-icon">
+                                  <div class="column-label qc-number">8</div>
+                                  <div class="divider"></div>
+                                  <div class="column-label">3:33PM</div><img src="images/Info.svg" width="14" alt="" class="info" data-ix="reveal-table-overlay">
+                                  <div class="table-hover-overlay" data-ix="initial-table-hover-overlay">
+                                    <div class="column-label qc-number">Bl 2</div>
+                                    <div class="divider"></div>
+                                    <div class="column-label variety">Envy</div>
+                                  </div>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">3</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">1</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">8</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">5</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">6</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">2</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">3</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">1</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table total">
+                                  <h4 class="heading total">21</h4>
+                                </div>
+                              </div>
+                              <div class="column table">
+                                <div class="row label" data-ix="show-drag-icon">
+                                  <div class="column-label qc-number">9</div>
+                                  <div class="divider"></div>
+                                  <div class="column-label">5:22pm</div><img src="images/Info.svg" width="14" alt="" class="info" data-ix="reveal-table-overlay">
+                                  <div class="table-hover-overlay" data-ix="initial-table-hover-overlay">
+                                    <div class="column-label qc-number">Bl 2</div>
+                                    <div class="divider"></div>
+                                    <div class="column-label variety">Envy</div>
+                                  </div>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">5</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">1</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">4</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">5</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">4</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">1</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">3</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table">
+                                  <h4 class="heading">5</h4>
+                                </div>
+                                <div data-ix="show-slider-container" class="row table total">
+                                  <h4 class="heading total">22</h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="main-container table">
+                            <div class="zero-state"><img src="images/Cactus.png" alt="" class="cactus">
+                              <div class="xero-state-header">We couldn&#x27;t find any records for your selected filter. Try another?</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-w-tab="Tab 2" class="tab-container w-tab-pane w--tab-active">
+                  <div class="filter-container vertical">
+                    <div class="filter-row w-clearfix">
+                      <div class="input-container"><img src="images/Calendar.png" width="16" alt="" class="calendar-icon">
+                        <div class="search-label">03 Oct 2018</div>
+                      </div>
+                      <div class="text-block">to</div>
+                      <div class="input-container"><img src="images/Calendar.png" width="16" alt="" class="calendar-icon">
+                        <div class="search-label">04 Oct 2018</div>
+                      </div><a href="#" class="small-button w-button" data-ix="reveal-toast">APPLY</a>
+                      <div class="action-icon" data-ix="show-filter-expand-more"><img src="images/Expand-Down.png" width="22" alt="" class="icon">
+                        <div class="search-label">MORE FILTERS</div>
+                      </div>
+                    </div>
+                    <div class="filter-expand-row" data-ix="hide-filter-expand-row">
+                      <div class="input-container dropdown no-margin">
+                        <div class="w-form">
+                          <form><select class="dropdown-selection w-select"><option value="">Manager</option><option value="Alicia Ortiz">Alicia Ortiz</option><option value="Alejandro Guzman">Alejandro Guzman</option><option value="Carlos Sandoval">Carlos Sandoval</option></select></form>
+                          <div class="w-form-done">
+                            <div>Thank you! Your submission has been received!</div>
+                          </div>
+                          <div class="w-form-fail">
+                            <div>Oops! Something went wrong while submitting the form</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="input-container dropdown">
+                        <div class="w-form">
+                          <form><select class="dropdown-selection w-select"><option value="">Supervisor</option><option value="Supervisor 1">Supervisor 1</option><option value="Supervisor 2">Supervisor 2</option><option value="Supervisor 3">Supervisor 3</option></select></form>
+                          <div class="w-form-done">
+                            <div>Thank you! Your submission has been received!</div>
+                          </div>
+                          <div class="w-form-fail">
+                            <div>Oops! Something went wrong while submitting the form</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="input-container dropdown">
+                        <div class="w-form">
+                          <form id="email-form-6" name="email-form-6" data-name="Email Form 6"><select class="dropdown-selection w-select"><option value="">Picker</option><option value="Picker 1">Picker 1</option><option value="Picker 2">Picker 2</option><option value="Picker 3">Picker 3</option><option value="I HAVE A REALLY LONG NAME">I HAVE A REALLY LONG NAME</option></select></form>
+                          <div class="w-form-done">
+                            <div>Thank you! Your submission has been received!</div>
+                          </div>
+                          <div class="w-form-fail">
+                            <div>Oops! Something went wrong while submitting the form</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="input-container dropdown">
+                        <div class="w-form">
+                          <form><select class="dropdown-selection w-select"><option value="">All Varieties</option><option value="Envy">Envy</option><option value="Belle du Jumet">Belle du Jumet</option><option value="Granny Smith">Granny Smith</option></select></form>
+                          <div class="w-form-done">
+                            <div>Thank you! Your submission has been received!</div>
+                          </div>
+                          <div class="w-form-fail">
+                            <div>Oops! Something went wrong while submitting the form</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="input-container dropdown">
+                        <div class="w-form">
+                          <form id="email-form-6" name="email-form-6" data-name="Email Form 6"><select class="dropdown-selection w-select"><option value="">All Picks</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></form>
+                          <div class="w-form-done">
+                            <div>Thank you! Your submission has been received!</div>
+                          </div>
+                          <div class="w-form-fail">
+                            <div>Oops! Something went wrong while submitting the form</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="input-container dropdown">
+                        <div class="w-form">
+                          <form id="email-form-6" name="email-form-6" data-name="Email Form 6"><select class="dropdown-selection w-select"><option value="">All Blocks</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></form>
+                          <div class="w-form-done">
+                            <div>Thank you! Your submission has been received!</div>
+                          </div>
+                          <div class="w-form-fail">
+                            <div>Oops! Something went wrong while submitting the form</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inner-overflow">
+                    <div class="main-container">
+                      <div data-ix="scroll-tutorial" class="row-container">
+                        <div class="feedback-row-container">
+                          <div class="feedback-headers">
+                            <div class="feedback-header-label-vertical">
+                              <div class="column-label qc-number">3/10/2018, 8:15am</div>
+                              <div class="column-label centered">BL: 23445</div>
+                              <div class="column-label centered">Golden Delicious</div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="feedback-header-label-vertical">
+                              <div class="column-label label">SUPERVISOR</div>
+                              <div class="column-label centered">Alejandro Ramos</div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="feedback-header-label-vertical">
+                              <div class="column-label label">Picker</div>
+                              <div class="column-label centered">Maria Santos</div>
+                            </div>
+                          </div>
+                          <div class="row-vertical-divider"></div>
+                          <div class="feedback-column">
+                            <p class="comments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero.</p>
+                          </div>
+                          <div class="feedback-column"><a href="#" class="lightbox-image-container w-inline-block w-lightbox"><img src="images/3-Tips-To-Keep-Your-Backyard-Orchard-Thriving.jpg" srcset="images/3-Tips-To-Keep-Your-Backyard-Orchard-Thriving-p-1080.jpeg 1080w, images/3-Tips-To-Keep-Your-Backyard-Orchard-Thriving.jpg 1600w" sizes="120px" alt="" class="lightbox-image"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 1600,
+      "caption": "",
+      "height": 1063,
+      "fileName": "5bdfa9428f67b73c46a95e1a_3-Tips-To-Keep-Your-Backyard-Orchard-Thriving.jpg",
+      "origFileName": "3-Tips-To-Keep-Your-Backyard-Orchard-Thriving.jpg",
+      "url": "images/3-Tips-To-Keep-Your-Backyard-Orchard-Thriving.jpg",
+      "_id": "5bf330e1e30af93b037dbced",
+      "type": "image",
+      "fileSize": 155911
+    }
+  ]
+}</script></a></div>
+                        </div>
+                        <div class="feedback-row-container">
+                          <div class="feedback-headers">
+                            <div class="feedback-header-label-vertical">
+                              <div class="column-label qc-number">3/10/2018, 12:15PM</div>
+                              <div class="column-label centered">BL: 23</div>
+                              <div class="column-label centered">New Zealand Envy</div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="feedback-header-label-vertical">
+                              <div class="column-label label">SUPERVISOR</div>
+                              <div class="column-label centered">Alejandro Ramos</div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="feedback-header-label-vertical">
+                              <div class="column-label label">Picker</div>
+                              <div class="column-label centered">Maria Santos</div>
+                            </div>
+                          </div>
+                          <div class="row-vertical-divider"></div>
+                          <div class="feedback-column">
+                            <p class="comments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                          </div>
+                          <div class="feedback-column"><a href="#" class="lightbox-image-container w-inline-block w-lightbox"><img src="images/3-Tips-To-Keep-Your-Backyard-Orchard-Thriving.jpg" srcset="images/3-Tips-To-Keep-Your-Backyard-Orchard-Thriving-p-1080.jpeg 1080w, images/3-Tips-To-Keep-Your-Backyard-Orchard-Thriving.jpg 1600w" sizes="120px" alt="" class="lightbox-image"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 1600,
+      "caption": "",
+      "height": 1063,
+      "fileName": "5bdfa9428f67b73c46a95e1a_3-Tips-To-Keep-Your-Backyard-Orchard-Thriving.jpg",
+      "origFileName": "3-Tips-To-Keep-Your-Backyard-Orchard-Thriving.jpg",
+      "url": "images/3-Tips-To-Keep-Your-Backyard-Orchard-Thriving.jpg",
+      "_id": "5bf330e1e30af93b037dbced",
+      "type": "image",
+      "fileSize": 155911
+    }
+  ]
+}</script></a></div>
+                        </div>
+                        <div class="feedback-row-container">
+                          <div class="feedback-headers">
+                            <div class="feedback-header-label-vertical">
+                              <div class="column-label qc-number">3/10/2018, 5:15PM</div>
+                              <div class="column-label centered">BL: 23445</div>
+                              <div class="column-label centered">Golden Delicious</div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="feedback-header-label-vertical">
+                              <div class="column-label label">SUPERVISOR</div>
+                              <div class="column-label centered">Alejandro Ramos</div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="feedback-header-label-vertical">
+                              <div class="column-label label">Picker</div>
+                              <div class="column-label centered">Maria Santos</div>
+                            </div>
+                          </div>
+                          <div class="row-vertical-divider"></div>
+                          <div class="feedback-column">
+                            <p class="comments">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                          </div>
+                          <div class="feedback-column"><a href="#" class="lightbox-image-container w-inline-block w-lightbox"><img src="images/3-Tips-To-Keep-Your-Backyard-Orchard-Thriving.jpg" srcset="images/3-Tips-To-Keep-Your-Backyard-Orchard-Thriving-p-1080.jpeg 1080w, images/3-Tips-To-Keep-Your-Backyard-Orchard-Thriving.jpg 1600w" sizes="120px" alt="" class="lightbox-image"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 1600,
+      "caption": "",
+      "height": 1063,
+      "fileName": "5bdfa9428f67b73c46a95e1a_3-Tips-To-Keep-Your-Backyard-Orchard-Thriving.jpg",
+      "origFileName": "3-Tips-To-Keep-Your-Backyard-Orchard-Thriving.jpg",
+      "url": "images/3-Tips-To-Keep-Your-Backyard-Orchard-Thriving.jpg",
+      "_id": "5bf330e1e30af93b037dbced",
+      "type": "image",
+      "fileSize": 155911
+    }
+  ]
+}</script></a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-w-tab="Admin 3" class="frame-pane w-tab-pane">
+            <div data-duration-in="300" data-duration-out="100" class="sub-frame w-tabs">
+              <div class="sub-nav w-tab-menu">
+                <a data-w-tab="Tab 1" class="horizontal-nav-tab w-inline-block w-tab-link w--current">
                   <div class="horizontal-nav-title">PEOPLE</div>
                   <div class="horizontal-tab-icon people"></div>
                 </a>
@@ -2776,7 +3565,7 @@ $(function() {
                   <div class="horizontal-nav-title">JOBS / TASKS</div>
                   <div class="horizontal-tab-icon jobs"></div>
                 </a>
-                <a data-w-tab="Tab 3" class="horizontal-nav-tab w-inline-block w-tab-link w--current">
+                <a data-w-tab="Tab 3" class="horizontal-nav-tab w-inline-block w-tab-link">
                   <div class="horizontal-nav-title">ORCHARDS</div>
                   <div class="horizontal-tab-icon orchards"></div>
                 </a>
@@ -2790,7 +3579,7 @@ $(function() {
                 </a>
               </div>
               <div class="w-tab-content">
-                <div data-w-tab="Tab 1" class="tab-container w-tab-pane">
+                <div data-w-tab="Tab 1" class="tab-container w-tab-pane w--tab-active">
                   <div data-duration-in="300" data-duration-out="100" class="sub-frame w-tabs">
                     <div class="sub-nav secondary w-tab-menu">
                       <a data-w-tab="Tab 1" class="horizontal-nav-tab secondary w-inline-block w-tab-link w--current">
@@ -2845,8 +3634,8 @@ $(function() {
                             <div class="edit-columnn">
                               <div class="form-block-container w-form">
                                 <form id="email-form-7" name="email-form-7" data-name="Email Form 7" class="w-clearfix">
-                                  <div class="left-form-column"><label for="First-Name-3" class="field-label">First Name</label><input type="text" class="text-field w-input" maxlength="256" name="First-Name-3" data-name="First Name 3" placeholder="Adriana" id="First-Name-3"><label for="Date-of-Birth-3" class="field-label">Date OF BIRTH</label><input type="text" class="text-field w-input" maxlength="256" name="Date-of-Birth-3" data-name="Date Of Birth 3" placeholder="09 Aug 1987" id="Date-of-Birth-3"><label for="Phone-Number-3" class="field-label">Phone Number</label><input type="text" class="text-field w-input" maxlength="256" name="Phone-Number-3" data-name="Phone Number 3" placeholder="(027) 545 5099" id="Phone-Number-3"></div>
-                                  <div class="right-form-column"><label for="Last-Name-3" class="field-label">First Name</label><input type="text" class="text-field w-input" maxlength="256" name="Last-Name-3" data-name="Last Name 3" placeholder="Ramos" id="Last-Name-3"><label for="Email-3" class="field-label">Email Address</label><input type="text" class="text-field w-input" maxlength="256" name="Email-3" data-name="Email 3" placeholder="adriana.ramos@gmail.com" id="Email-3"><label for="Wage-3" class="field-label">Wage Rate</label><input type="text" class="text-field w-input" maxlength="256" name="Wage-3" data-name="Wage 3" placeholder="$15" id="Wage-3"></div>
+                                  <div class="left-form-column"><label for="First-Name-4" class="field-label">First Name</label><input type="text" class="text-field w-input" maxlength="256" name="First-Name-3" data-name="First Name 3" placeholder="Adriana" id="First-Name-3"><label for="Date-of-Birth-4" class="field-label">Date OF BIRTH</label><input type="text" class="text-field w-input" maxlength="256" name="Date-of-Birth-3" data-name="Date Of Birth 3" placeholder="09 Aug 1987" id="Date-of-Birth-3"><label for="Phone-Number-4" class="field-label">Phone Number</label><input type="text" class="text-field w-input" maxlength="256" name="Phone-Number-3" data-name="Phone Number 3" placeholder="(027) 545 5099" id="Phone-Number-3"><label for="Minimum-Wage" class="field-label">BUSINESS HOUR START AT</label><select class="dropdown-selection w-select"><option value="8:00am">8:00am</option><option value="7:00am">7:00am</option><option value="7:30am">7:30am</option><option value="8:30am">8:30am</option><option value="9:00am">9:00am</option><option value="9:30am">9:30am</option><option value="10:00am">10:00am</option><option value="Custom">Custom</option></select></div>
+                                  <div class="right-form-column"><label for="Last-Name-4" class="field-label">First Name</label><input type="text" class="text-field w-input" maxlength="256" name="Last-Name-3" data-name="Last Name 3" placeholder="Ramos" id="Last-Name-3"><label for="Email-4" class="field-label">Email Address</label><input type="text" class="text-field w-input" maxlength="256" name="Email-3" data-name="Email 3" placeholder="adriana.ramos@gmail.com" id="Email-3"><label for="Wage-4" class="field-label">Wage Rate</label><input type="text" class="text-field w-input" maxlength="256" name="Wage-3" data-name="Wage 3" placeholder="$15" id="Wage-3"><label for="Minimum-Wage" class="field-label">END AT</label><select class="dropdown-selection w-select"><option value="5:00pm">5:00pm</option><option value="5:30pm">5:30pm</option><option value="6:00pm">6:00pm</option><option value="6:30pm">6:30pm</option><option value="7:00pm">7:00pm</option><option value="Custom">Custom</option></select></div>
                                 </form>
                                 <div class="buttons-container"><a href="#" class="button w-button" data-ix="reveal-toast">SAVE</a><a href="#" class="button delete w-button" data-ix="reveal-toast">DELETE</a></div>
                                 <div class="w-form-done">
@@ -2906,7 +3695,7 @@ $(function() {
                                 <form id="email-form-7" name="email-form-7" data-name="Email Form 7" class="w-clearfix">
                                   <div class="left-form-column"><label for="First-Name-4" class="field-label">First Name</label><input type="text" class="text-field w-input" maxlength="256" name="First-Name-2" data-name="First Name 2" placeholder="Adriana" id="First-Name-2"><label for="Date-of-Birth-4" class="field-label">Date OF BIRTH</label><input type="text" class="text-field w-input" maxlength="256" name="Date-of-Birth-2" data-name="Date Of Birth 2" placeholder="09 Aug 1987" id="Date-of-Birth-2"><label for="Phone-Number-4" class="field-label">Phone Number</label><input type="text" class="text-field w-input" maxlength="256" name="Phone-Number-2" data-name="Phone Number 2" placeholder="(027) 545 5099" id="Phone-Number-2"><select id="Account-Type-2" name="Account-Type-2" data-name="Account Type 2" class="dropdown-selection w-select"><option value="">Account Type</option><option value="First">Manager</option><option value="Second">Supervisor</option><option value="Third">Owner</option></select></div>
                                   <div class="right-form-column"><label for="Last-Name-4" class="field-label">First Name</label><input type="text" class="text-field w-input" maxlength="256" name="Last-Name-2" data-name="Last Name 2" placeholder="Ramos" id="Last-Name-2"><label for="Email-4" class="field-label">Email Address</label><input type="text" class="text-field w-input" maxlength="256" name="Email-2" data-name="Email 2" placeholder="adriana.ramos@gmail.com" id="Email-2"><label for="Wage-4" class="field-label">Wage Rate</label><input type="text" class="text-field w-input" maxlength="256" name="Wage-2" data-name="Wage 2" placeholder="$15" id="Wage-2">
-                                    <div class="checkbox-field w-checkbox"><input type="checkbox" id="checkbox-2" name="checkbox-2" data-name="Checkbox 2" class="w-checkbox-input"><label for="checkbox-2" class="checkbox-label w-form-label">DASHBOARD ACCESS</label></div>
+                                    <div class="checkbox-field w-checkbox"><input type="checkbox" id="checkbox-2" name="checkbox-2" data-name="Checkbox 2" class="w-checkbox-input"><label for="checkbox-3" class="checkbox-label w-form-label">DASHBOARD ACCESS</label></div>
                                   </div>
                                 </form>
                                 <div class="buttons-container"><a href="#" class="button w-button" data-ix="reveal-toast">SAVE</a><a href="#" class="button delete w-button" data-ix="reveal-toast">DELETE</a></div>
@@ -2931,6 +3720,9 @@ $(function() {
                         <div class="horizontal-nav-title secondary">JOB TYPES</div>
                       </a>
                       <a data-w-tab="Tab 2" class="horizontal-nav-tab secondary w-inline-block w-tab-link w--current">
+                        <div class="horizontal-nav-title secondary">SICK/LEAVE TYPES</div>
+                      </a>
+                      <a data-w-tab="Tab 3" class="horizontal-nav-tab secondary w-inline-block w-tab-link">
                         <div class="horizontal-nav-title secondary">TASK TYPES</div>
                       </a>
                     </div>
@@ -2967,7 +3759,7 @@ $(function() {
                             <div class="edit-columnn">
                               <div class="form-block-container w-form">
                                 <form id="email-form-7" name="email-form-7" data-name="Email Form 7" class="w-clearfix">
-                                  <div class="left-form-column"><label for="Activity-Type-2" class="field-label">ACTIVITY TYPE</label><input type="text" class="text-field w-input" maxlength="256" name="Activity-Type-2" data-name="Activity Type 2" placeholder="Picking" id="Activity-Type-2"></div>
+                                  <div class="left-form-column"><label for="Activity-Type-3" class="field-label">JOB NAME</label><input type="text" class="text-field w-input" maxlength="256" name="Activity-Type-2" data-name="Activity Type 2" placeholder="Picking" id="Activity-Type-2"><label for="Activity-Type-3" class="field-label">Job CATEGORY</label><select id="field-3" name="field-3" class="dropdown w-select"><option value="">Picking</option><option value="Prunning">Prunning</option><option value="Other">Other</option><option value="Third">Third Choice</option></select></div>
                                 </form>
                                 <div class="buttons-container"><a href="#" class="button w-button" data-ix="reveal-toast">SAVE</a><a href="#" class="button delete w-button" data-ix="reveal-toast">DELETE</a></div>
                                 <div class="w-form-done">
@@ -2982,6 +3774,42 @@ $(function() {
                         </div>
                       </div>
                       <div data-w-tab="Tab 2" class="tab-container w-tab-pane w--tab-active">
+                        <div class="inner-overflow">
+                          <div class="main-container horizontal">
+                            <div class="user-column">
+                              <div class="list-of-people">
+                                <div class="user-row-block" data-ix="show-edit-icon">
+                                  <div class="user-block action-cta">Sick / Leave Type</div><img src="images/Add.png" width="14" alt="" class="user-list-icon" data-ix="hide-icon"></div>
+                                <div class="user-row-block" data-ix="show-edit-icon">
+                                  <div class="user-block">Sick</div><img src="images/Edit.png" width="14" alt="" class="user-list-icon" data-ix="hide-icon"></div>
+                                <div class="user-row-block" data-ix="show-edit-icon">
+                                  <div class="user-block">Planned Leave</div><img src="images/Edit.png" width="14" alt="" class="user-list-icon" data-ix="hide-icon"></div>
+                                <div class="user-row-block" data-ix="show-edit-icon">
+                                  <div class="user-block">Absent</div><img src="images/Edit.png" width="14" alt="" class="user-list-icon" data-ix="hide-icon"></div>
+                                <div class="user-row-block" data-ix="show-edit-icon">
+                                  <div class="user-block">Bereavement</div><img src="images/Edit.png" width="14" alt="" class="user-list-icon" data-ix="hide-icon"></div>
+                                <div class="user-row-block" data-ix="show-edit-icon">
+                                  <div class="user-block">Sent Home</div><img src="images/Edit.png" width="14" alt="" class="user-list-icon" data-ix="hide-icon"></div>
+                              </div>
+                            </div>
+                            <div class="edit-columnn">
+                              <div class="form-block-container w-form">
+                                <form id="email-form-7" name="email-form-7" data-name="Email Form 7" class="w-clearfix">
+                                  <div class="left-form-column"><label for="Sick-Leave-3" class="field-label">Sick / Leave NAME</label><input type="text" class="text-field w-input" maxlength="256" name="Sick-Leave-2" data-name="Sick Leave 2" placeholder="Sick" id="Sick-Leave-2"><label for="Sick-Leave-3" class="field-label">Sick / Leave CATEGORY</label><select id="field-3" name="field-3" class="dropdown w-select"><option value="Sick">Sick</option><option value="Planned Leave">Planned Leave</option><option value="Absent">Absent</option><option value="Bereavement">Bereavement</option><option value="Sent Home">Sent Home</option></select></div>
+                                </form>
+                                <div class="buttons-container"><a href="#" class="button w-button" data-ix="reveal-toast">SAVE</a><a href="#" class="button delete w-button" data-ix="reveal-toast">DELETE</a></div>
+                                <div class="w-form-done">
+                                  <div>Thank you! Your submission has been received!</div>
+                                </div>
+                                <div class="w-form-fail">
+                                  <div>Oops! Something went wrong while submitting the form.</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-w-tab="Tab 3" class="tab-container w-tab-pane">
                         <div class="inner-overflow">
                           <div class="main-container">
                             <div class="action-top-row" data-ix="show-edit-icon">
@@ -3539,7 +4367,7 @@ $(function() {
                     </div>
                   </div>
                 </div>
-                <div data-w-tab="Tab 3" class="tab-container w-tab-pane w--tab-active">
+                <div data-w-tab="Tab 3" class="tab-container w-tab-pane">
                   <div class="inner-overflow">
                     <div class="main-container">
                       <div class="action-top-row" data-ix="show-edit-icon">
@@ -3873,8 +4701,8 @@ $(function() {
                             <div class="edit-columnn">
                               <div class="form-block-container w-form">
                                 <form id="email-form-7" name="email-form-7" data-name="Email Form 7" class="w-clearfix">
-                                  <div class="left-form-column"><label for="Variety-Type-2" class="field-label">Variety</label><input type="text" class="text-field w-input" maxlength="256" name="Variety-Type-2" data-name="Variety Type 2" placeholder="Belle du Jumet" id="Variety-Type-2"><label for="Bin-Weight-2" class="field-label">Bin Weight (kg)</label><input type="text" class="text-field w-input" maxlength="256" name="Bin-Weight-2" data-name="Bin Weight 2" placeholder="350" id="Bin-Weight-2"><label for="Carton-Weight-2" class="field-label">Carton Weight (KG)</label><input type="text" class="text-field w-input" maxlength="256" name="Carton-Weight-2" data-name="Carton Weight 2" placeholder="18" id="Carton-Weight-2"></div>
-                                  <div class="right-form-column"><label for="Package-2" class="field-label">Package %</label><input type="text" class="text-field w-input" maxlength="256" name="Package-2" data-name="Package 2" placeholder="80%" id="Package-2"><label for="Carton-Price-2" class="field-label">Carton Price</label><input type="text" class="text-field w-input" maxlength="256" name="Carton-Price-2" data-name="Carton Price 2" placeholder="$32" id="Carton-Price-2"></div>
+                                  <div class="left-form-column"><label for="Variety-Type-3" class="field-label">Variety</label><input type="text" class="text-field w-input" maxlength="256" name="Variety-Type-2" data-name="Variety Type 2" placeholder="Belle du Jumet" id="Variety-Type-2"><label for="Bin-Weight-3" class="field-label">Bin Weight (kg)</label><input type="text" class="text-field w-input" maxlength="256" name="Bin-Weight-2" data-name="Bin Weight 2" placeholder="350" id="Bin-Weight-2"><label for="Carton-Weight-3" class="field-label">Carton Weight (KG)</label><input type="text" class="text-field w-input" maxlength="256" name="Carton-Weight-2" data-name="Carton Weight 2" placeholder="18" id="Carton-Weight-2"></div>
+                                  <div class="right-form-column"><label for="Package-3" class="field-label">Package %</label><input type="text" class="text-field w-input" maxlength="256" name="Package-2" data-name="Package 2" placeholder="80%" id="Package-2"><label for="Carton-Price-3" class="field-label">Carton Price</label><input type="text" class="text-field w-input" maxlength="256" name="Carton-Price-2" data-name="Carton Price 2" placeholder="$32" id="Carton-Price-2"></div>
                                 </form>
                                 <div class="buttons-container"><a href="#" class="button w-button" data-ix="reveal-toast">SAVE</a><a href="#" class="button delete w-button" data-ix="reveal-toast">DELETE</a></div>
                                 <div class="w-form-done">
@@ -3906,7 +4734,7 @@ $(function() {
                             <div class="edit-columnn">
                               <div class="form-block-container w-form">
                                 <form id="email-form-7" name="email-form-7" data-name="Email Form 7" class="w-clearfix">
-                                  <div class="left-form-column"><label for="Quality-2" class="field-label">Quality</label><input type="text" class="text-field w-input" maxlength="256" name="Quality-2" data-name="Quality 2" placeholder="A" id="Quality-2"></div>
+                                  <div class="left-form-column"><label for="Quality-3" class="field-label">Quality</label><input type="text" class="text-field w-input" maxlength="256" name="Quality-2" data-name="Quality 2" placeholder="A" id="Quality-2"></div>
                                 </form>
                                 <div class="buttons-container"><a href="#" class="button w-button" data-ix="reveal-toast">SAVE</a><a href="#" class="button delete w-button" data-ix="reveal-toast">DELETE</a></div>
                                 <div class="w-form-done">
@@ -3938,7 +4766,7 @@ $(function() {
                             <div class="edit-columnn">
                               <div class="form-block-container w-form">
                                 <form id="email-form-7" name="email-form-7" data-name="Email Form 7" class="w-clearfix">
-                                  <div class="left-form-column"><label for="PICK-TYPE-2" class="field-label">PICK TYPE</label><input type="text" class="text-field w-input" maxlength="256" name="PICK-TYPE-2" data-name="PICK TYPE 2" placeholder="1" id="PICK-TYPE-2"></div>
+                                  <div class="left-form-column"><label for="PICK-TYPE-3" class="field-label">PICK TYPE</label><input type="text" class="text-field w-input" maxlength="256" name="PICK-TYPE-2" data-name="PICK TYPE 2" placeholder="1" id="PICK-TYPE-2"></div>
                                 </form>
                                 <div class="buttons-container"><a href="#" class="button w-button" data-ix="reveal-toast">SAVE</a><a href="#" class="button delete w-button" data-ix="reveal-toast">DELETE</a></div>
                                 <div class="w-form-done">
@@ -3964,10 +4792,10 @@ $(function() {
                       <a data-w-tab="Tab 5" class="horizontal-nav-tab secondary w-inline-block w-tab-link">
                         <div class="horizontal-nav-title secondary">RATES</div>
                       </a>
-                      <a data-w-tab="Tab 6" class="horizontal-nav-tab secondary w-inline-block w-tab-link w--current">
+                      <a data-w-tab="Tab 6" class="horizontal-nav-tab secondary w-inline-block w-tab-link">
                         <div class="horizontal-nav-title secondary">TREATMENTS</div>
                       </a>
-                      <a data-w-tab="Tab 7" class="horizontal-nav-tab secondary w-inline-block w-tab-link">
+                      <a data-w-tab="Tab 7" class="horizontal-nav-tab secondary w-inline-block w-tab-link w--current">
                         <div class="horizontal-nav-title secondary">DEFAULTS</div>
                       </a>
                     </div>
@@ -3990,7 +4818,7 @@ $(function() {
                             <div class="edit-columnn">
                               <div class="form-block-container w-form">
                                 <form id="email-form-7" name="email-form-7" data-name="Email Form 7" class="w-clearfix">
-                                  <div class="left-form-column"><label for="Export-Country-2" class="field-label">EXPORT COUNTRY</label><input type="text" class="text-field w-input" maxlength="256" name="Export-Country-2" data-name="Export Country 2" placeholder="USA" id="Export-Country-2"><label for="Restrictions-2" class="field-label">Restrictions</label><input type="text" class="text-field w-input" maxlength="256" name="Restrictions-2" data-name="Restrictions 2" placeholder="N/A" id="Restrictions-2"></div>
+                                  <div class="left-form-column"><label for="Export-Country-3" class="field-label">EXPORT COUNTRY</label><input type="text" class="text-field w-input" maxlength="256" name="Export-Country-2" data-name="Export Country 2" placeholder="USA" id="Export-Country-2"><label for="Restrictions-3" class="field-label">Restrictions</label><input type="text" class="text-field w-input" maxlength="256" name="Restrictions-2" data-name="Restrictions 2" placeholder="N/A" id="Restrictions-2"></div>
                                 </form>
                                 <div class="buttons-container"><a href="#" class="button w-button" data-ix="reveal-toast">SAVE</a><a href="#" class="button delete w-button" data-ix="reveal-toast">DELETE</a></div>
                                 <div class="w-form-done">
@@ -4022,7 +4850,7 @@ $(function() {
                             <div class="edit-columnn">
                               <div class="form-block-container w-form">
                                 <form id="email-form-7" name="email-form-7" data-name="Email Form 7" class="w-clearfix">
-                                  <div class="left-form-column"><label for="Rate-2" class="field-label">RATE</label><input type="text" class="text-field w-input" maxlength="256" name="Rate-2" data-name="Rate 2" placeholder="$1.50" id="Rate-2"></div>
+                                  <div class="left-form-column"><label for="Rate-3" class="field-label">RATE</label><input type="text" class="text-field w-input" maxlength="256" name="Rate-2" data-name="Rate 2" placeholder="$1.50" id="Rate-2"></div>
                                 </form>
                                 <div class="buttons-container"><a href="#" class="button w-button" data-ix="reveal-toast">SAVE</a><a href="#" class="button delete w-button" data-ix="reveal-toast">DELETE</a></div>
                                 <div class="w-form-done">
@@ -4036,7 +4864,7 @@ $(function() {
                           </div>
                         </div>
                       </div>
-                      <div data-w-tab="Tab 6" class="tab-container w-tab-pane w--tab-active">
+                      <div data-w-tab="Tab 6" class="tab-container w-tab-pane">
                         <div class="inner-overflow">
                           <div class="main-container horizontal">
                             <div class="user-column">
@@ -4054,7 +4882,7 @@ $(function() {
                             <div class="edit-columnn">
                               <div class="form-block-container w-form">
                                 <form id="email-form-7" name="email-form-7" data-name="Email Form 7" class="w-clearfix">
-                                  <div class="left-form-column"><label for="Treatment-2" class="field-label">Treatment</label><input type="text" class="text-field w-input" maxlength="256" name="Treatment-2" data-name="Treatment 2" placeholder="Calcium" id="Treatment-2"></div>
+                                  <div class="left-form-column"><label for="Treatment-3" class="field-label">Treatment</label><input type="text" class="text-field w-input" maxlength="256" name="Treatment-2" data-name="Treatment 2" placeholder="Calcium" id="Treatment-2"></div>
                                 </form>
                                 <div class="buttons-container"><a href="#" class="button w-button" data-ix="reveal-toast">SAVE</a><a href="#" class="button delete w-button" data-ix="reveal-toast">DELETE</a></div>
                                 <div class="w-form-done">
@@ -4068,15 +4896,17 @@ $(function() {
                           </div>
                         </div>
                       </div>
-                      <div data-w-tab="Tab 7" class="tab-container w-tab-pane">
+                      <div data-w-tab="Tab 7" class="tab-container w-tab-pane w--tab-active">
                         <div class="inner-overflow">
                           <div class="main-container horizontal">
                             <div class="user-column">
                               <div class="list-of-people">
                                 <div class="user-row-block" data-ix="show-edit-icon">
-                                  <div class="user-block action-cta">MINIMUM WAGES</div><img src="images/Add.png" width="14" alt="" class="user-list-icon" data-ix="hide-icon"></div>
+                                  <div class="user-block action-cta">Add NEW DEFAULT type</div><img src="images/Add.png" width="14" alt="" class="user-list-icon" data-ix="hide-icon"></div>
                                 <div class="user-row-block" data-ix="show-edit-icon">
-                                  <div class="user-block">Bin Weight</div><img src="images/Edit.png" width="14" alt="" class="user-list-icon" data-ix="hide-icon"></div>
+                                  <div class="user-block">Business Hours</div><img src="images/Edit.png" width="14" alt="" class="user-list-icon" data-ix="hide-icon"></div>
+                                <div class="user-row-block" data-ix="show-edit-icon">
+                                  <div class="user-block">Minimum Wage</div><img src="images/Edit.png" width="14" alt="" class="user-list-icon" data-ix="hide-icon"></div>
                                 <div class="user-row-block" data-ix="show-edit-icon">
                                   <div class="user-block">Carton Weight</div><img src="images/Edit.png" width="14" alt="" class="user-list-icon" data-ix="hide-icon"></div>
                                 <div class="user-row-block" data-ix="show-edit-icon">
@@ -4088,7 +4918,7 @@ $(function() {
                             <div class="edit-columnn">
                               <div class="form-block-container w-form">
                                 <form id="email-form-7" name="email-form-7" data-name="Email Form 7" class="w-clearfix">
-                                  <div class="left-form-column"><label for="Minimum-Wage-2" class="field-label">MINIMUM WAGE</label><input type="text" class="text-field w-input" maxlength="256" name="Minimum-Wage-2" data-name="Minimum Wage 2" placeholder="$15.50" id="Minimum-Wage-2"></div>
+                                  <div class="left-form-column"><label for="Minimum-Wage" class="field-label">BUSINESS HOUR START AT</label><select class="dropdown-selection w-select"><option value="8:00am">8:00am</option><option value="7:00am">7:00am</option><option value="7:30am">7:30am</option><option value="8:30am">8:30am</option><option value="9:00am">9:00am</option><option value="9:30am">9:30am</option><option value="10:00am">10:00am</option><option value="Custom">Custom</option></select><label for="Minimum-Wage" class="field-label">END AT</label><select class="dropdown-selection w-select"><option value="5:00pm">5:00pm</option><option value="5:30pm">5:30pm</option><option value="6:00pm">6:00pm</option><option value="6:30pm">6:30pm</option><option value="7:00pm">7:00pm</option><option value="Custom">Custom</option></select></div>
                                 </form>
                                 <div class="buttons-container"><a href="#" class="button w-button" data-ix="reveal-toast">SAVE</a><a href="#" class="button delete w-button" data-ix="reveal-toast">DELETE</a></div>
                                 <div class="w-form-done">
